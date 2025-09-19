@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
+import mszagImage from './images/mszag.jpeg';
 
 const DeveloperPortfolio = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -70,14 +71,10 @@ const DeveloperPortfolio = () => {
       >
         <div className="text-center px-6 max-w-4xl mx-auto">
           <div className="mb-8 opacity-0 animate-fade-in [animation-delay:0.2s]">
-            <img
-              src="https://placeholder-image-service.onrender.com/image/200x200?prompt=Professional developer portrait with modern background&id=843224bc-f1dd-470d-bbd7-46126d3a7a5d"
-              alt="Professional developer portrait with modern background"
-              className="rounded-full mx-auto shadow-lg"
-            />
+            <img src={mszagImage} alt="Developer Avatar" className="w-36 h-36 rounded-full mx-auto shadow-lg" />
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 opacity-0 animate-fade-in [animation-delay:0.4s]">
-            <span className="text-primary">John</span> Developer
+            <span className="text-primary">Muhammad Syifa</span> Zai Al Ghani
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 opacity-0 animate-fade-in [animation-delay:0.6s]">
             Full Stack Developer & UI/UX Enthusiast
