@@ -331,14 +331,14 @@ const ProfessionalPortfolio = () => {
                 <div className="contact-icon">✉️</div>
                 <div>
                   <div>Email</div>
-                  <div>mszag@developer.com</div>
+                  <div>ghanizen30@gmail.com</div>
                 </div>
               </div>
               <div className="contact-item">
                 <div className="contact-icon">📱</div>
                 <div>
                   <div>Phone</div>
-                  <div>+62 (542) 123-4567</div>
+                  <div>+62 823 5088 9069</div>
                 </div>
               </div>
             </div>
@@ -381,10 +381,10 @@ const ProfessionalPortfolio = () => {
       <footer className="footer">
         <div className="social-links">
           {[
-            { name: 'GitHub', icon: '🔗', url: '#' },
-            { name: 'LinkedIn', icon: '💼', url: '#' },
-            { name: 'Twitter', icon: '🐦', url: '#' },
-            { name: 'Instagram', icon: '📷', url: '#' }
+            { name: 'GitHub', icon: '', url: '#' },
+            { name: 'LinkedIn', icon: '', url: '#' },
+            { name: 'Twitter', icon: '', url: '#' },
+            { name: 'Instagram', icon: '', url: '#' }
           ].map((social) => (
             <a
               key={social.name}
