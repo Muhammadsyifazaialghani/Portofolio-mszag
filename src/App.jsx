@@ -107,46 +107,72 @@ const ProfessionalPortfolio = () => {
       </nav>
 
       {/* Hero Section */}
-      <section
-        ref={sectionRefs.home}
-        id="home"
-        className="hero-section section"
-      >
-        <div className="hero-content">
-          <div className="opacity-0" style={{animationDelay: '0.2s'}}>
+     {/* Hero Section */}
+<section
+  ref={sectionRefs.home}
+  id="home"
+  className="hero-section section"
+>
+  <div className="hero-content">
+    <div className="opacity-0" style={{ animationDelay: '0.2s' }}>
+      <div className="hero-image-container">
+        <div className="hero-image-card">
+          {/* Front Side */}
+          <div className="hero-image-front">
             <img
               src="/src/assets/images/mszag.jpeg"
               alt="Developer Portrait"
               className="hero-image"
             />
           </div>
-          <div className="hero-text-content">
-            <h1 className="hero-title opacity-0" style={{animationDelay: '0.4s'}}>
-              <span className={`hero-name-primary ${isTyping ? 'typing' : ''}`}>
-                {displayText}
-                {isTyping && <span className="cursor">|</span>}
-              </span> Zai Al Ghani
-            </h1>
-            <p className="hero-subtitle opacity-0" style={{animationDelay: '0.6s'}}>
-              Full Stack Developer & UI/UX Enthusiast
-            </p>
-            <div className="hero-buttons opacity-0" style={{animationDelay: '0.8s'}}>
-              <button
-                onClick={() => scrollToSection('projects')}
-                className="btn-primary"
-              >
-                View My Work
-              </button>
-              <button
-                onClick={() => scrollToSection('contact')}
-                className="btn-secondary"
-              >
-                Get In Touch
-              </button>
-            </div>
+          {/* Back Side (GitHub Logo) */}
+          <div className="hero-image-back">
+            <a
+              href="https://github.com/Muhammadsyifazaialghani"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                alt="GitHub Logo"
+                className="hero-image"
+                style={{ padding: '40px', objectFit: 'contain', background: 'white' }}
+              />
+            </a>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+
+    <div className="hero-text-content">
+      <h1 className="hero-title opacity-0" style={{ animationDelay: '0.4s' }}>
+        <span className={`hero-name-primary ${isTyping ? 'typing' : ''}`}>
+          {displayText}
+          {isTyping && <span className="cursor">|</span>}
+        </span>{' '}
+        Zai Al Ghani
+      </h1>
+      <p className="hero-subtitle opacity-0" style={{ animationDelay: '0.6s' }}>
+        Full Stack Developer & UI/UX Enthusiast
+      </p>
+      <div className="hero-buttons opacity-0" style={{ animationDelay: '0.8s' }}>
+        <button
+          onClick={() => scrollToSection('projects')}
+          className="btn-primary"
+        >
+          View My Work
+        </button>
+        <button
+          onClick={() => scrollToSection('contact')}
+          className="btn-secondary"
+        >
+          Get In Touch
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* About Section */}
       <section
