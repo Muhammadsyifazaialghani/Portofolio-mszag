@@ -259,7 +259,7 @@ body {
 
 /* About Section */
 .about-section {
-  background-color: #f8fafc;
+  background-color: #1e293b;
 }
 
 .about-grid {
@@ -285,12 +285,12 @@ body {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
-  color: #1e293b;
+  color: #f1f5f9;
 }
 
 .about-content p {
   font-size: 1.125rem;
-  color: #64748b;
+  color: #cbd5e1;
   margin-bottom: 1.5rem;
   line-height: 1.7;
 }
@@ -305,28 +305,28 @@ body {
 .stat-item {
   text-align: center;
   padding: 1.5rem;
-  background: white;
+  background: #334155;
   border-radius: 0.75rem;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 .stat-number {
   display: block;
   font-size: 2.5rem;
   font-weight: 800;
-  color: #2563eb;
+  color: #60a5fa;
   margin-bottom: 0.5rem;
 }
 
 .stat-label {
   font-size: 0.9rem;
-  color: #64748b;
+  color: #cbd5e1;
   font-weight: 500;
 }
 
 /* Projects Section */
 .projects-section {
-  background: white;
+  background: #1e293b;
 }
 
 .projects-grid {
@@ -336,17 +336,17 @@ body {
 }
 
 .project-card {
-  background: white;
+  background: #334155;
   border-radius: 1rem;
   overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #475569;
 }
 
 .project-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
 }
 
 .project-image {
@@ -362,12 +362,12 @@ body {
 .project-title {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #1e293b;
+  color: #f1f5f9;
   margin-bottom: 1rem;
 }
 
 .project-description {
-  color: #64748b;
+  color: #cbd5e1;
   margin-bottom: 1.5rem;
   line-height: 1.6;
 }
@@ -380,8 +380,8 @@ body {
 }
 
 .project-tag {
-  background: #dbeafe;
-  color: #2563eb;
+  background: #475569;
+  color: #60a5fa;
   padding: 0.25rem 0.75rem;
   border-radius: 0.5rem;
   font-size: 0.875rem;
@@ -390,7 +390,7 @@ body {
 
 /* Skills Section */
 .skills-section {
-  background: #f8fafc;
+  background: #1e293b;
 }
 
 .skills-grid {
@@ -402,7 +402,7 @@ body {
 .skill-category h3 {
   font-size: 1.75rem;
   font-weight: 700;
-  color: #1e293b;
+  color: #f1f5f9;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -419,17 +419,17 @@ body {
 
 .skill-name {
   font-weight: 600;
-  color: #1e293b;
+  color: #f1f5f9;
 }
 
 .skill-percentage {
   font-weight: 600;
-  color: #2563eb;
+  color: #60a5fa;
 }
 
 .skill-bar {
   height: 8px;
-  background: #e2e8f0;
+  background: #475569;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -674,8 +674,7 @@ body {
   }
   
   .hero-image {
-    width: 280px;
-    height: 280px;
+    object-fit: cover;
   }
   
   .hero-title {
